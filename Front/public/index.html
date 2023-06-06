@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles/styles_index.css" />
+  <title>App Name</title>
+</head>
+
+<body>
+<header>
+  <div class="container">
+    <h1 class="app-name">App Name</h1>
+    <a class="settings-link" href="Settings_page.html">
+      <img src="img/Settings.svg" class="settings-img" />
+    </a>
+  </div>
+</header>
+<main>
+
+
+
+
+  <div class="container">
+    <div class="buttons">
+      <!-- Images -->
+      <a href="Calendar_page.html">
+        <img src="img/Calendar.svg" class="calendar-img" />
+      </a>
+      <a href="Bucket_list_page.html" onclick="showApiConnectionRequired()">
+        <img src="img/Bucket list.svg" class="bucket_list-img" />
+      </a>
+      <a href="Deadlines_page.html" onclick="showApiConnectionRequired()">
+        <img src="img/Deadlines.svg" class="deadlines-img" />
+      </a>
+      <a href="Task_creating_page.html">
+        <img src="img/Add Task.svg" class="add_task-img" />
+      </a>
+    </div>
+  </div>
+</main>
+<footer>
+  <div id="weather-widget">
+    <h3>Київ</h3>
+    <img id="weather-icon" src="" alt="Погодний іконка" />
+    <div id="temperature"></div>
+    <div id="description"></div>
+    <div id="other-weather-data">
+      <span id="humidity"></span><br>
+      <span id="wind-speed"></span>
+    </div>
+  </div>
+  <div class="container">
+    <p class="dev-name">© Name️ 2023</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

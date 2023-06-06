@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+/* Sidebar */
+.sidebar{
+    background: rgba(87, 93, 236, 0.76);
+    width: 36%;
+    height: 100vh;
+    float: left;
+}
+
+/* Header */
+.bucket-list{
+    margin-top: 55%;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+/* Bucket list img*/
+.bucket_list-img{
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.bucket_list-img, .bucket-list{
+    display: grid;
+}
+
+
+footer{
+	position: absolute;
+    bottom: 3%;
+    left: 3%;
+	width: 100%;
+}
+
+
+
+/* Main Section */
+.main-section{
+    width: 64%;
+    height: 100vh;
+    float: right;
+    background: #FFAFA3;
+}

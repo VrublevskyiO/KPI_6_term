@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    background: rgba(87, 93, 236, 0.76);
+    width: 36%;
+    height: 100vh;
+    float: left;
+}
+
+/* Header */
+.calendar {
+    margin-top: 55%;
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+/* Calendar img */
+.calendar-img {
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.calendar-img,
+.calendar {
+    display: grid;
+}
+
+footer {
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    width: 100%;
+}
+
+/* Main Section */
+.main-section {
+    width: 64%;
+    height: 100vh;
+    float: right;
+    background: #FFD966;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 700px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+.calendar-nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#prev-month-btn,
+#next-month-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#month-year {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    text-align: center;
+    padding: 8px;
+    width: 14.28%;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    position: relative;
+}
+
+td:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.current-day {
+    background-color: #FF8C00;
+    color: white;
+}
+
+#task-list {
+    padding-top: 30px;
+}
+
+#task-list h3 {
+    text-align: center;
+}
+
+#task-list-items {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#task-list-items li {
+    margin-bottom: 5px;
+}
+
+#task-list-items li span {
+    font-weight: bold;
+}

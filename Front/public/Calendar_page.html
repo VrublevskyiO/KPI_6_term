@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles_calendar.css">
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div class="sidebar">
+        <h2 class="calendar">Calendar</h2>
+        <!-- Images -->
+        <img src="img/Calendar.svg" class="calendar-img">
+        <footer>
+            <a href="index.html">
+                <img src="img/Arrow.svg" />
+            </a>
+        </footer>
+    </div>
+
+    <!-- main area -->
+    <div class="main-section">
+        <div class="calendar-container">
+            <span id="month-year"></span>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Пн</th>
+                        <th>Вт</th>
+                        <th>Ср</th>
+                        <th>Чт</th>
+                        <th>Пт</th>
+                        <th>Сб</th>
+                        <th>Нд</th>
+                    </tr>
+                </thead>
+                <tbody id="calendar-body">
+                </tbody>
+            </table>
+
+            <div class="calendar-nav">
+                <button id="prev-month-btn">Попередній місяць</button>
+                <button id="next-month-btn">Наступний місяць</button>
+            </div>
+        </div>
+
+        <!-- Task List -->
+        <div id="task-list" style="display: none;">
+            <h3 id="task-date"></h3>
+            <ul id="task-list-items">
+            </ul>
+        </div>
+        <script src="js/calendar.js"></script>
+    </div>
+</body>
+
+</html>

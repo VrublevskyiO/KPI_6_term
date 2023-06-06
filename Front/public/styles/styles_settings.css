@@ -1,0 +1,130 @@
+body {
+  box-sizing: border-box;
+  background: rgba(87, 93, 236, 0.76);
+}
+
+.arrow {
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+  width: 100%;
+}
+
+.dev-name {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+.app-name {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.settings-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.settings-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  background: #4b7bec;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px; /* Змініть розмір за потребою */
+  width: 100%;
+  position: relative;
+  top: 35%;
+  left: 35%;
+}
+
+.modal-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align: center; /* Додано нове властивість */
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+
+.language-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.language-options label {
+  margin: 0 10px;
+}
+
+.language-options input[type='radio'] {
+  display: none;
+}
+
+.language-options img {
+  width: 60px; /* Змініть розмір за потребою */
+  height: 45px; /* Змініть розмір за потребою */
+  cursor: pointer;
+}
+
+
+.modal-close {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background: #4b7bec;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+
+.modal-message {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
